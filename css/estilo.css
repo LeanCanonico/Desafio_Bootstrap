@@ -2,4 +2,41 @@
 	margin:0px;
 	padding:0px;
 	box-sizing: border-box;
+	font-family: 'Aboreto', cursive;
+	font-weight: bolder;
 }
+h1{
+	text-align: center;
+	font-weight: bold;
+}
+.alignText{
+	display: flex;
+	justify-content: center;
+}
+footer{ 
+	padding: 20px 0; 
+}
+.card-text{
+	text-align: center;
+}
+.gridPinturas {  display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	gap: 55px 50px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	"pintura-1 pintura-2 pintura-3"
+	"pintura-4 pintura-5 pintura-6";
+}
+
+.pintura-1 { grid-area: pintura-1; }
+
+.pintura-2 { grid-area: pintura-2; }
+
+.pintura-3 { grid-area: pintura-3; }
+
+.pintura-4 { grid-area: pintura-4; }
+
+.pintura-6 { grid-area: pintura-6; }
+
+.pintura-5 { grid-area: pintura-5; }
