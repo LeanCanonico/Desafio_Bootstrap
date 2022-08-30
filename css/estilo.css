@@ -11,10 +11,6 @@ h1{
 	font-weight: bold;
 	margin-top: 2rem;
 }
-.alignText{
-	display: flex;
-	justify-content: center;
-}
 footer{ 
 	padding: 20px 0; 
 }
@@ -43,6 +39,35 @@ footer{
 .pintura-6 { grid-area: pintura-6; }
 
 .pintura-5 { grid-area: pintura-5; }
+
+@media only screen and (max-width: 768px) {
+	.gridPinturas {  display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6,1fr);
+		gap: 55px 50px;
+		grid-auto-flow: row;
+		grid-template-areas:
+		"pintura-1"
+		"pintura-2" 
+		"pintura-3"
+		"pintura-4" 
+		"pintura-5" 
+		"pintura-6";
+	}
+	
+	.pintura-1 { grid-area: pintura-1; }
+	
+	.pintura-2 { grid-area: pintura-2; }
+	
+	.pintura-3 { grid-area: pintura-3; }
+	
+	.pintura-4 { grid-area: pintura-4; }
+	
+	.pintura-6 { grid-area: pintura-6; }
+	
+	.pintura-5 { grid-area: pintura-5; }
+	
+}
 
 /* TATUAJES */
 .estiloImg img{
