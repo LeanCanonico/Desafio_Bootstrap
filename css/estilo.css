@@ -30,12 +30,13 @@ footer{
 /* PINTURAS */
 .gridPinturas {  display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
 	gap: 55px 50px;
 	grid-auto-flow: row;
 	grid-template-areas:
 	"pintura-1 pintura-2 pintura-3"
-	"pintura-4 pintura-5 pintura-6";
+	"pintura-4 pintura-5 pintura-6"
+	"pintura-7 pintura-8 pintura-9";
 }
 
 .pintura-1 { grid-area: pintura-1; }
@@ -48,12 +49,17 @@ footer{
 
 .pintura-6 { grid-area: pintura-6; }
 
-.pintura-5 { grid-area: pintura-5; }
+.pintura-7 { grid-area: pintura-7; }
+
+.pintura-8 { grid-area: pintura-8; }
+
+.pintura-9 { grid-area: pintura-9; }
+
 
 @media only screen and (max-width: 768px) {
 	.gridPinturas {  display: grid;
 		grid-template-columns: 1fr;
-		grid-template-rows: repeat(6,1fr);
+		grid-template-rows: repeat(9,1fr);
 		gap: 55px 50px;
 		grid-auto-flow: row;
 		grid-template-areas:
@@ -62,7 +68,10 @@ footer{
 		"pintura-3"
 		"pintura-4" 
 		"pintura-5" 
-		"pintura-6";
+		"pintura-6"
+		"pintura-7"
+		"pintura-8"
+		"pintura-9";
 	}
 	
 	.pintura-1 { grid-area: pintura-1; }
@@ -76,6 +85,12 @@ footer{
 	.pintura-6 { grid-area: pintura-6; }
 	
 	.pintura-5 { grid-area: pintura-5; }
+
+	.pintura-7 { grid-area: pintura-7; }
+	
+	.pintura-8 { grid-area: pintura-8; }
+	
+	.pintura-9 { grid-area: pintura-9; }
 	
 }
 
