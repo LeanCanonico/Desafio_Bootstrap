@@ -27,7 +27,7 @@ footer{
 		
 	}
 }
-/* PINTURAS */
+/* PAINTINGS */
 .gridPinturas {  display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -94,7 +94,7 @@ footer{
 	
 }
 
-/* TATUAJES */
+/* WORKS */
 .imgNormalizada img {
 	width: auto;
 	height: 800px;
@@ -105,4 +105,15 @@ footer{
 		width: auto;
 		height: auto;
 	}
+}
+
+/* CONTACT */
+
+/* PRESS */
+a{
+	text-decoration: none;
+	color: whitesmoke;
+}
+a:hover{
+	color: darkred;
 }
