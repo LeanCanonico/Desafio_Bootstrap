@@ -14,10 +14,20 @@ h1{
 footer{ 
 	padding: 20px 0; 
 }
-/* PINTURAS */
-.card-text{
-	text-align: center;
+/* INDEX */
+.imgNormalizadaCarousel img{
+	width: auto;
+	height: 1180px;
+	max-height: 1180px;
 }
+@media only screen and (max-width: 768px) {
+	.imgNormalizadaCarousel img{
+		width: auto;
+		height: auto;
+		
+	}
+}
+/* PINTURAS */
 .gridPinturas {  display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr;
@@ -70,7 +80,14 @@ footer{
 }
 
 /* TATUAJES */
-.estiloImg img{
-	width: 100%;
-	height: 100%;
+.imgNormalizada img {
+	width: auto;
+	height: 800px;
+	max-height: 800px;
+}
+@media only screen and (max-width: 768px) {
+	.imgNormalizada img {
+		width: auto;
+		height: auto;
+	}
 }
