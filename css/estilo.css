@@ -1,7 +1,5 @@
 /* UNIVERSAL */ 
 *{
-	margin:0px;
-	padding:0px;
 	box-sizing: border-box;
 	font-family: 'Aboreto', cursive;
 	font-weight: bolder;
@@ -114,6 +112,11 @@ a{
 	text-decoration: none;
 	color: whitesmoke;
 }
+a{
+	color: rgb(255, 255, 255);
+	transition: font-size 2s;
+}
 a:hover{
-	color: darkred;
+	font-size: 2rem;
+	color: rgb(133, 2, 2);
 }
